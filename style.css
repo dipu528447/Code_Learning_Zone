@@ -1,0 +1,23 @@
+.carousel-text {
+    color: #fff;
+    position: absolute;
+    z-index: 12;
+    top: 40%;
+    left: 30;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+.overlay:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
